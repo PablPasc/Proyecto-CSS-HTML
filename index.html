@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <meta name="description" content="Portfolio de Pablo Pascual Valenciano, incluye últimos trabajos y medios de contacto"/> 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Germania+One&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <label for="menu-check">
+        <img src="./assets/menu.svg" alt="Icono menu tres rayas" />
+      </label>
+      <input type="checkbox" id="menu-check" />
+
+      <nav>
+        <menu>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">Sobre mí </a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contacto</li>
+        </menu>
+      </nav>
+      <span>Pablo Pascual Valenciano</span>
+    </header>
+
+    <main>
+      <section id="hero">
+        <h1>
+          Programador Senior backend con más de diez años de experiencia.
+          Especializado en Java, Phyton y JavaScript
+        </h1>
+        <a href="https://es.linkedin.com">LinkedIn</a>
+      </section>
+
+      <section id="about">
+        <img src="./assets/avatar.jpg" alt="Foto del autor de la página" />
+        <p>Rellenar con trajectoria ficticia</p>
+      </section>
+
+      <section id="portfolio">
+        <div>
+          <h2>Proyectos destacados</h2>
+          <p>Una selección de mis trabajos recientes</p>
+        </div>
+        <div class="projects">
+          <article class="project-card">
+            <img src="./assets/linux-logo.jpg" alt="Icono pingüino linux" />
+            <div class="project-details">
+              <h3>Linux kernel</h3>
+              <p>
+                The Linux kernel is the core of any Linux operating system. It
+                manages hardware, system resources, and provides the fundamental
+                services for all other software.
+              </p>
+              <a href="https://github.com/torvalds/linux">Ver repositorio</a>
+            </div>
+          </article>
+
+          <article class="project-card secondary">
+            <img src="./assets/bun.png" alt="Icono bun" />
+            <div class="project-details">
+              <h3>Bun: JavaScript runtime</h3>
+              <p>
+                Bun is a fast, incrementally adoptable all-in-one JavaScript,
+                TypeScript & JSX toolkit
+              </p>
+              <a href="https://bun.com">Ver web</a>
+            </div>
+          </article>
+
+          <article class="project-card last">
+            <img src="./assets/Pydantic-logo.png" alt="Icono Pydantic" />
+            <div class="project-details">
+              <h3>Pydantic</h3>
+              <p>
+                Pydantic is the most widely used data validation library for
+                Python.
+              </p>
+              <a href="https://pydantic.dev/">Ver web</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact">
+        <h3>Contacta conmigo</h3>
+        <form action="">
+          <label>
+            Nombre
+            <input required type="text" placeholder="Escribe aquí" />
+          </label>
+          <label>
+            Email
+            <input required type="email" placeholder="ejemplo@gmail.com" />
+          </label>
+          <label>
+            Mensaje
+            <textarea required placeholder="Déjame tu mensaje"></textarea>
+          </label>
+          <button>Enviar</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <h4>Realizado por Pablo Pascual Valenciano</h4>
+      <div>
+        <a href="https://es.linkedin.com"
+          ><img src="./assets/LinkedIn_icon.svg.webp" alt="Icono linkedin"
+        /></a>
+        <a href="https://x.com/">
+          <img src="./assets/Twitter-logo.webp" alt="Icono Twitter"
+        /></a>
+      </div>
+    </footer>
+  </body>
+</html>
